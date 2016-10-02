@@ -11,7 +11,7 @@ import time
 
 # Setup
 version = "1.0"
-PATCH_CONFIG_PATH = "../configs/patchconfig.dat"
+PATCH_CONFIG_PATH = "configs/patchconfig.dat"
 TEST_TIME_WAIT = 1
 pconf = PatchConfig(PATCH_CONFIG_PATH)
 DMXServ = DMXServer(pconf)
