@@ -1,6 +1,0 @@
-{
-  "venv": "", 
-  "name": "Blend2Light", 
-  "license": "GNU General Public License v3", 
-  "description": "Converting Blender lighting data to DMX light output."
-}
