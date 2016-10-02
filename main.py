@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 # Custom Import
+from src import patchconfig
+from src import dmxserver
 from patchconfig import PatchConfig
 from dmxserver import DMXServer
 
@@ -9,7 +11,7 @@ import time
 
 # Setup
 version = "1.0"
-PATCH_CONFIG_PATH = "patchconfig.dat"
+PATCH_CONFIG_PATH = "../configs/patchconfig.dat"
 TEST_TIME_WAIT = 1
 pconf = PatchConfig(PATCH_CONFIG_PATH)
 DMXServ = DMXServer(pconf)
@@ -17,7 +19,7 @@ DMXServ = DMXServer(pconf)
 
 # Defs
 def printUsage():
-    print("You fucked up!")
+    print("Invalid input.")
     #sys.exit(0)
 
 
